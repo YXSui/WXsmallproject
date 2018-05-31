@@ -1,0 +1,31 @@
+<!--pages/intro/intro.wxml-->
+<view class="container">
+  <view class="usermotto1">
+    <!--<text class="user-motto">{{motto}}</text>-->
+    <button type="primary" size="{{primarySize}}" plain="{{plain}}" hover-class="none"
+        disabled="{{disabled}}" bindtap="tofuli" class="margin-button"> {{motto1}} </button>
+  </view>
+  <view class="usermotto2">
+    <!--<text class="user-motto">{{motto}}</text>-->
+    <button type="primary" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="tofuli" class="margin-button"> {{motto2}} </button>
+  </view>
+  <view class="usermotto3">
+    <!--<text class="user-motto">{{motto}}</text>-->
+    <button type="primary" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="tofuli" class="margin-button"> {{motto3}} </button>
+  </view>
+  <view class="usermotto4">
+    <!--<text class="user-motto">{{motto}}</text>-->
+    <button type="primary" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="tofuli" class="margin-button"> {{motto4}} </button>
+  </view>
+  <view class="usermotto5">
+    <!--<text class="user-motto">{{motto}}</text>-->
+    <button type="primary" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="tofuli" class="margin-button"> {{motto5}} </button>
+  </view>
+</view>
+<view class='figure'>
+<image style="width: 70px; height: 70px;" mode="aspectFit" src="../figure/logo.png"></image>
+</view>

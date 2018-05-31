@@ -1,0 +1,79 @@
+<!--pages/fuli/fuli.wxml-->
+<view class="title">复利计算器</view>
+<view class="trsw" style='flex-direction:row'>
+    <view class="thswl">启用月复利</view>
+    <view class="thswr">
+      <switch checked="{{switcheck}}" bindchange="switchChange"/>
+    </view>
+</view>
+<view class="container">
+    <view class="table">
+        <view class="tr">
+            <view class="th">{{qszj}}</view>
+            <view class="th">
+              <view class='tr'>
+                <input type="number" id="initMoney" bindchange="bindChange" value='0'/>
+                <view>￥</view>
+              </view>
+            </view>
+        </view>
+        <view class="tr">
+            <view class="th">{{mnsy}}</view>
+            <view class="th">
+              <view class='tr'>
+                <input type="number" id="rate" bindchange="bindChange" value='0'/>
+                <view>%</view>
+              </view>
+            </view>
+        </view>
+        <view class="tr">
+            <view class="th">{{flns}}</view>
+            <view class="th">
+              <view class='tr'>
+                <input type="number" id="year" bindchange="bindChange" value='0'/>
+                <view>{{timeunit}}</view>
+              </view>
+            </view>
+        </view>
+        <view class="tr">
+            <view class="th">{{zjzj}}</view>
+            <view class="th">
+              <view class='tr'>
+                <input type="number" id="each" bindchange="bindChange" value='0'/>
+                <view>￥</view>
+              </view>
+            </view>
+        </view>
+        <view class="tr">
+            <button type="primary" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="fulical" class="th1"> 点击计算 </button>
+        </view>
+        <view class="tr">
+            <view class="th">本金和</view>
+            <view class="th">
+              <view class='tr'>
+                <input type="number" id="sum1" disabled="disabled" value='{{sum1}}'/>
+                <view>￥</view>
+              </view>
+            </view>
+        </view>
+        <view class="tr">
+            <view class="th">利息和</view>
+            <view class="th">
+              <view class='tr'>
+                <input type="number" id="sum2" disabled="disabled" value='{{sum2}}'/>
+                <view>￥</view>
+              </view>
+            </view>
+        </view>
+        <view class="tr">
+            <view class="th">本息和</view>
+            <view class="th">
+              <view class='tr'>
+                <input type="number" id="sum3" disabled="disabled" value='{{sum3}}'/>
+                <view>￥</view>
+              </view>
+            </view>
+        </view>
+    </view>
+</view>
