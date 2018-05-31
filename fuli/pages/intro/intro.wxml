@@ -1,6 +1,6 @@
 <!--pages/intro/intro.wxml-->
 <view class="container">
-  <view class="usermotto1">
+  <view class="usermotto1"> 
     <!--<text class="user-motto">{{motto}}</text>-->
     <button type="primary" size="{{primarySize}}" plain="{{plain}}" hover-class="none"
         disabled="{{disabled}}" bindtap="tofuli" class="margin-button"> {{motto1}} </button>

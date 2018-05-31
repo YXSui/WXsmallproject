@@ -1,1 +1,22 @@
 /* pages/intro/intro.wxss */
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  margin-top:-30px;
+  background-color: #ECFDF5
+}
+.margin-button{
+  height:50px;
+  width:250px;
+  padding: 0px;
+  margin-top:10px;
+}
+.figure{
+  margin-left:270px;
+  margin-top:40px
+}

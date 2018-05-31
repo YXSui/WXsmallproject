@@ -3,7 +3,7 @@ var app = getApp()
 Page({
   data: {
     primarySize: 'default',
-    plain: false,
+    plain: true,
     defaultSize: 'default',
     disabled: false,
     iconType: 'info_circle',
